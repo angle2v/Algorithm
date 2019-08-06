@@ -1,2 +1,2 @@
 # Programmers
-### Algorithm Study
+## Algorithm Study
