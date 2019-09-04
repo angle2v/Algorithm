@@ -1,6 +1,6 @@
 package lv1;
 
-public class step02FindKimSeobangInSeoul {
+public class Q02FindKimSeobangInSeoul {
 	public static String findKim(String[] seoul) {
 		// x에 김서방의 위치를 저장하세요.
 		String answer = "";
@@ -25,10 +25,17 @@ public class step02FindKimSeobangInSeoul {
 	}
 }
 
-/*
- * programmers class Solution { public String solution(String[] seoul) { String
- * answer = "";
- * 
- * int x = 1; for (int i = 0; i < seoul.length; i++) { if (seoul[i] == "Kim") {
- * x = i; } } return "김서방은 " + x + "에 있다"; } }
- */
+/*programmers
+class Solution {
+	public String solution(String[] seoul) {
+		String answer = "";
+
+		int x = 1;
+		for (int i = 0; i < seoul.length; i++) {
+			if (seoul[i] == "Kim") {
+				x = i;
+			}
+		}
+		return "김서방은 " + x + "에 있다";
+	}
+}*/

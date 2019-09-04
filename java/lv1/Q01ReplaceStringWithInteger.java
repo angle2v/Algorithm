@@ -1,6 +1,6 @@
 package lv1;
 
-public class step01ReplaceStringWithInteger {
+public class Q01ReplaceStringWithInteger {
 
 	public static int solution(String s) {
 		int answer = Integer.parseInt(s);
@@ -12,9 +12,14 @@ public class step01ReplaceStringWithInteger {
 		System.out.println(solution("1234"));
 	}
 }
-/*
- * programmers class Solution { public int solution(String s) { int answer =
- * Integer.parseInt(s);
- * 
- * return answer; } }
- */
+
+/*programmers
+class Solution {
+	public int solution(String s) {
+		int answer =
+
+				Integer.parseInt(s);
+
+		return answer;
+	}
+}*/
