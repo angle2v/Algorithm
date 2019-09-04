@@ -1,12 +1,12 @@
 package lv1;
 
-public class Q03WaterMelon {
+public class step03WaterMelon {
 
 		public static String solution(int n) {
 			String answer = "";
 
-			String su = "¼ö";
-			String bak = "¹Ú";
+			String su = "Â¼Ã¶";
+			String bak = "Â¹Ãš";
 
 			for (int i = 1; i <= n; i++) {
 				if (i % 2 != 0) {
@@ -23,24 +23,3 @@ public class Q03WaterMelon {
 		System.out.println(solution(5));
 	}
 }
-
-/*programmers
-class Solution {
-    public String solution(int n) {
-        String answer = "";
-        
-        String su = "¼ö";
-        String bak = "¹Ú";
-        
-        for(int i=1; i<=n; i++) {
-            if(i%2!=0) {
-                answer += su;
-            } else {
-                answer += bak;
-            }
-        }
-        
-        return answer;
-    }
-  }*/
-  
