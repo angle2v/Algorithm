@@ -2,14 +2,14 @@ package lv1;
 
 public class step02FindKimSeobangInSeoul {
 	public static String findKim(String[] seoul) {
-		// x¿¡ ±è¼­¹æÀÇ À§Ä¡¸¦ ÀúÀåÇÏ¼¼¿ä.
+		// xì— ê¹€ì„œë°©ì˜ ìœ„ì¹˜ë¥¼ ì €ì¥í•˜ì„¸ìš”.
 		String answer = "";
 
 		String Kim = "Kim";
 
 		for (int i = 0; i < seoul.length; i++) {
 			if (seoul[i].equals(Kim)) {
-				answer = "±è¼­¹æÀº " + i + "¿¡ ÀÖ´Ù";
+				answer = "ê¹€ì„œë°©ì€ " + i + "ì— ìˆë‹¤";
 				break;
 			}
 		}
@@ -19,7 +19,7 @@ public class step02FindKimSeobangInSeoul {
 
 	public static String[] seoul = { "Jhan", "Kim" };
 
-	// ½ÇÇàÀ» À§ÇÑ Å×½ºÆ®ÄÚµåÀÔ´Ï´Ù.
+	// ì‹¤í–‰ì„ ìœ„í•œ í…ŒìŠ¤íŠ¸ì½”ë“œì…ë‹ˆë‹¤.
 	public static void main(String[] args) {
 		System.out.println(findKim(seoul));
 	}
@@ -30,5 +30,5 @@ public class step02FindKimSeobangInSeoul {
  * answer = "";
  * 
  * int x = 1; for (int i = 0; i < seoul.length; i++) { if (seoul[i] == "Kim") {
- * x = i; } } return "±è¼­¹æÀº " + x + "¿¡ ÀÖ´Ù"; } }
+ * x = i; } } return "ê¹€ì„œë°©ì€ " + x + "ì— ìˆë‹¤"; } }
  */
