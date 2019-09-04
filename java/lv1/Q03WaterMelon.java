@@ -5,8 +5,8 @@ public class step03WaterMelon {
 		public static String solution(int n) {
 			String answer = "";
 
-			String su = "¼ö";
-			String bak = "¹Ú";
+			String su = "Â¼Ã¶";
+			String bak = "Â¹Ãš";
 
 			for (int i = 1; i <= n; i++) {
 				if (i % 2 != 0) {
