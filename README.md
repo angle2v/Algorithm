@@ -1,3 +1,3 @@
-# Algorithm Study<br>
+# - Algorithm Study<br>
 
 ## URL : https://programmers.co.kr/
