@@ -1,3 +1,4 @@
-# 　　Algorithm Study<br>
+# 　Algorithm Study
 
-##  　 https://programmers.co.kr/
+##  　[Programmers](https://programmers.co.kr/)
+##    [Baekjoon](https://www.acmicpc.net/)
